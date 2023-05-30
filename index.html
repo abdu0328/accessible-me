@@ -54,12 +54,12 @@
         <h2>Contact Us</h2>
         <form action="thanks.html">
           <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Subject">
-          <b>Your Message</b>
-          <textarea></textarea>
-          <button type="submit">Send</button>
+          <input type="text" aria-required="true" placeholder="Full Name">
+          <input type="text" aria-required="true" placeholder="Email">
+          <input type="text" aria-required="true" laceholder="Subject"p>
+          <label for="message">Your Message</label>
+          <textarea id="message" aria-required="true"></textarea>
+          <button type="submit" aria-label="Send Form">Send</button>
         </form>
       </section>
     </main>
