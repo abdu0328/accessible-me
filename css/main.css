@@ -54,9 +54,9 @@ header h1 {
   outline: 2px solid black;
 } */
 
-.skip-links, a:visited{
+/* .skip-links, a:visited{
   color: black;
-}
+} */
 
 .container {
   max-width: 1080px;
@@ -90,7 +90,7 @@ img {
   background-color: darkseagreen ;
 }
 
-.main-content {
+#main-content {
   background-color: white;
 }
 
