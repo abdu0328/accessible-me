@@ -54,9 +54,9 @@ header h1 {
   outline: 2px solid black;
 } */
 
-/* .skip-links, a:visited{
+.skip-back-link, a:visited{
   color: black;
-} */
+}
 
 .container {
   max-width: 1080px;
